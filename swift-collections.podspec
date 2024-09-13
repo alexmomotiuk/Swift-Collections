@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_versions = ['5']
 
-  s.module_name = 'SwiftCollections'
+  s.module_name = 'Collections'
 
   s.subspec 'BitCollections' do |ss|
     ss.dependency "InternalCollectionsUtilities", "#{s.version}"
